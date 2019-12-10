@@ -28,6 +28,9 @@ namespace StudentExercises.Models
         public string LastName { get; set; }
         public string SlackHandle { get; set; }
         public Cohort CohortId { get; set; }
+
+        //------------------------------------
+        public List<Exercise> Exercises { get; set; }
     }
 }
 
